@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head class="omorr">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="gallery.css">
+    <link rel="stylesheet" href="jquery.flipster.min.css">
+</head>
+<body>
+    <div class="hero">
+        <div class="carousel">
+            <ul>
+                <li><img src="img\judith (1).jpg"></li>
+                <li><img src="img\judith (2).jpg"></li>
+                <li><img src="img\judith (3).jpg"></li>
+                <li><img src="img\judith (4).jpg"></li>
+                <li><img src="img\judith (5).jpg"></li>
+                <li><img src="img\oba (2).jpg"></li>
+                <li><img src="img\oba (4).jpg"></li>
+                <li><img src="img\oba (5).jpg"></li>
+                <li><img src="img\oba (6).jpg"></li>
+                <li><img src="img\oba (9).jpg"></li>
+                <li><img src="img\oba (10).jpg"></li>
+            </ul>
+        </div>
+        
+        <h2 class="dadane">Danekumo's Creatures</h2>
+        <p class="dudane">An Image Gallery Portfolio for Danekumo</p>
+    </div>
+
+    <footer>
+        <span class="sham"> All Images were shot and Created By Collins Alaboson D. Jr. ©️ 2023 All rights reserved.</span>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="jquery.flipster.min.js"></script>
+    <script>
+        $('.carousel').flipster({
+            style:'carousel',
+            spacing: -0.3,
+        });
+
+        
+    </script>
+</body>
+</html>
